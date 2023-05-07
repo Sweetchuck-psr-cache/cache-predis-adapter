@@ -12,7 +12,7 @@ declare(strict_types = 1);
  * with this source code in the file LICENSE.
  */
 
-namespace Cache\Adapter\Predis\Tests;
+namespace Cache\Adapter\Predis\Tests\Helper;
 
 use Cache\Adapter\Predis\PredisCachePool;
 use Predis\Client;

@@ -12,11 +12,12 @@ declare(strict_types = 1);
  * with this source code in the file LICENSE.
  */
 
-namespace Cache\Adapter\Predis\Tests;
+namespace Cache\Adapter\Predis\Tests\Acceptance;
 
-use Cache\IntegrationTests\SimpleCacheTest;
+use Cache\Adapter\Predis\Tests\Helper\CreatePoolTrait;
+use Cache\IntegrationTests\HierarchicalCachePoolTest;
 
-class IntegrationSimpleCacheTest extends SimpleCacheTest
+class IntegrationHierarchyTest extends HierarchicalCachePoolTest
 {
     use CreatePoolTrait;
 
