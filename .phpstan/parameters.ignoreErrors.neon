@@ -1,0 +1,6 @@
+parameters:
+    ignoreErrors:
+        -
+            message: "#^Cannot call method getPayload\\(\\) on int\\.$#"
+            count: 1
+            path: ../src/PredisCachePool.php
